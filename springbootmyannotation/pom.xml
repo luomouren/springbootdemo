@@ -3,11 +3,21 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    
+<!--
+    <parent>
+        <artifactId>springboot-demo</artifactId>
+        <groupId>com.xxx</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>springboot-myannotation</artifactId>
+-->
+
+
     <groupId>com.xxx</groupId>
-    <artifactId>springboot-mybatis</artifactId>
+    <artifactId>springboot-myannotation</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-mybatis 整合 Mybatis</name>
+    <name>springboot-myannotation 自定义注解</name>
+
 
     <!-- spring boot 基本环境 -->
     <parent>
@@ -36,19 +46,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Spring Boot Mybatis 依赖 -->
-        <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter</artifactId>
-            <version>${mybatis-spring-boot}</version>
-        </dependency>
-
-        <!-- MySQL 连接驱动依赖 -->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-        </dependency>
-
         <!-- Junit -->
         <dependency>
             <groupId>junit</groupId>
@@ -62,7 +59,21 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.44</version>
         </dependency>
-    </dependencies>
 
+        <!-- mybatis.jar引用 -->
+        <dependency>
+            <groupId>com.xxx</groupId>
+            <artifactId>springboot-mybatis</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <!-- JSON Web Token Support For The JVM -->
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>0.9.0</version>
+        </dependency>
+
+    </dependencies>
 
 </project>

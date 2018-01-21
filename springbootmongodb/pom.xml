@@ -16,7 +16,7 @@
     <groupId>com.xxx</groupId>
     <artifactId>springboot-mongodb</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-mongodb 整合 MongoDB Demo</name>
+    <name>springboot-mongodb 整合 MongoDB</name>
 
 
     <!-- spring boot 基本环境 -->
