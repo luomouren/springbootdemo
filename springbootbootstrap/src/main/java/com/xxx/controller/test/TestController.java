@@ -21,6 +21,6 @@ public class TestController {
     @RequestMapping(value = "/bootstrap")
     public String bootstrap(ModelMap map) {
         map.put("host","xxxSpringBootDemo bootstrap");
-        return "bootstrap";
+        return PAGE_FILE_NAME+"bootstrap";
     }
 }
