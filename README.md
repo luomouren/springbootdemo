@@ -9,9 +9,9 @@
 配置文档[使用 spring 拦截器和自定义注解进行登录拦截](http://blog.csdn.net/emily201314/article/details/78881192)
 测试地址：http://localhost:8080/test/testLoginRequired
 
-4.springbootfreemarker
+4. springbootfreemarker
 测试地址：http://localhost:8080/test/demo
 
-5.springbootbootstrap
+5. springbootbootstrap
 包含springbootfreemarker
 测试地址：http://localhost:8080/test/bootstrap
