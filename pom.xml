@@ -11,8 +11,9 @@
     <modules>
         <module>springbootmybatis</module>
         <module>springbootmongodb</module>
-        <module>springbootfreemarker</module>
         <module>springbootmyannotation</module>
+        <module>springbootfreemarker</module>
+        <module>springbootbootstrap</module>
     </modules>
 
 
