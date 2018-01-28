@@ -36,11 +36,10 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Spring Boot Mybatis 依赖 -->
+        <!-- MySQL 连接驱动依赖 -->
         <dependency>
-            <groupId>com.xxx</groupId>
-            <artifactId>springboot-mybatis</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
         <!-- Junit -->
