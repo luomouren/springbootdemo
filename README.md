@@ -15,3 +15,4 @@
 5. springbootbootstrap
 包含springbootfreemarker
 测试地址：http://localhost:8080/test/bootstrap
+测试地址：http://localhost:8080/test/echarts

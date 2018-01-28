@@ -23,4 +23,9 @@ public class TestController {
         map.put("host","xxxSpringBootDemo bootstrap");
         return PAGE_FILE_NAME+"bootstrap";
     }
+
+    @RequestMapping(value = "/echarts")
+    public String testEcharts(ModelMap map) {
+        return PAGE_FILE_NAME+"myChart";
+    }
 }
