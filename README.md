@@ -16,3 +16,6 @@
 包含springbootfreemarker
 测试地址：http://localhost:8080/test/bootstrap
 测试地址：http://localhost:8080/test/echarts
+
+5. springbootElasticsearch
+测试地址：http://localhost:8080/api/city/search

@@ -14,6 +14,7 @@
         <module>springbootmyannotation</module>
         <module>springbootfreemarker</module>
         <module>springbootbootstrap</module>
+        <module>springbootelasticsearch</module>
     </modules>
 
 
